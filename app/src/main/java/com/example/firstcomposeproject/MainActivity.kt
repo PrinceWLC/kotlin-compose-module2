@@ -17,8 +17,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             FirstComposeProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Задание 8: трекер воды на весь экран.
-                    WaterTracker(modifier = Modifier.padding(innerPadding))
+                    // Задание 10: корзина покупок на весь экран.
+                    ShoppingCartScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
