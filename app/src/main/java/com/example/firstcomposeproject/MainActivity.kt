@@ -17,12 +17,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             FirstComposeProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Задание 1: имя передано. Для проверки варианта «Имя не задано»
-                    // можно передать name = null.
-                    Hello(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    // Задание 8: трекер воды на весь экран.
+                    WaterTracker(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
